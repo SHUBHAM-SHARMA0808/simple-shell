@@ -383,6 +383,7 @@ int search_dir(char** args)
    i=0;
    while((i<=p->no_of_paths) && (match == 0))
    {
+	printf("path:%s \n", p->path_list[i]);
     dr = opendir(p->path_list[i]);
     if(dr != NULL)
     {	
