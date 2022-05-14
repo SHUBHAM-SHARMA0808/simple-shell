@@ -103,6 +103,7 @@ void shell_loop()
           status = execute(cmd_table);
      
     }while(status);  
+	//check status
 }
 
 
